@@ -34,7 +34,7 @@ function getPost() {
         extras: document.getElementById("extras").value
     };
 
-    fetch("https://your-backend.onrender.com/generatePost/", {
+    fetch("https://linkedin-post-genertor1-0-1.onrender.com/generatePost/", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
