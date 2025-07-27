@@ -34,7 +34,7 @@ function getPost() {
         extras: document.getElementById("extras").value
     };
 
-    fetch('http://127.0.0.1:8000/generatePost/', {
+    fetch("https://your-backend.onrender.com/generatePost/", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
